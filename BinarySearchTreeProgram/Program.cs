@@ -24,7 +24,13 @@ namespace BinarySearchTreeProgram
             tree.Insert(63);
             tree.Insert(67);
             tree.DisplayBST();
+            tree.Insert(70);
+            Console.WriteLine("-------------------------------------------------------");
             tree.GetSize();
+            Console.WriteLine("-------------------------------------------------------");
+            bool result = tree.Search(63, tree);
+            Console.WriteLine(result);
+            Console.WriteLine("-------------------------------------------------------");
         }
     }
 }
